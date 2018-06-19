@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
 	});
 
 	router.add('/', () => {
-		let html = exchangeTemplate();
+		let html = ratesTemplate();
 		el.html(html);
 	});
 
